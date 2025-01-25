@@ -1,6 +1,5 @@
 // Start: JavaScript Fundamentals — let, const, scope
 
-
 // #1
 // Variable 'x' is declared and assigned the
 // value of 10 in the outer/global scope
@@ -30,22 +29,3 @@ user.name = "Ronald"
 // Will log 'Ronald' (the reassigned property value)
 console.log(user.name)
 
-// Question 3
-// 'var a' is hoisted to the top scope, 
-// but initialized as 'undefined'
-console.log(b); // logs undefined
-
-// 'a' is assigned the value 10 here
-var b = 10;
-
-// var a;         // Hoisted to the top with value 'undefined'
-// console.log(a); // Logs 'undefined'
-// a = 10;        // Assignment stays in place
-
-// #4
-// 'c' is hoisted, but resides in the Temporal Dead Zone (TDZ)
-// until initialized
-console.log(c); // ReferencError: Cannot access 'c' before initialization
-
-// 'c' is initialized here
-let c = 10;
