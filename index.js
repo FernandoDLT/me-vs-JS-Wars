@@ -28,4 +28,3 @@ user.name = "Ronald"
 
 // Will log 'Ronald' (the reassigned property value)
 console.log(user.name)
-
