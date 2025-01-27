@@ -42,3 +42,10 @@ var b = 10;
 // console.log(a); // Logs 'undefined'
 // a = 10;        // Assignment stays in place
 
+// #4
+// 'c' is hoisted, but resides in the Temporal Dead Zone (TDZ)
+// until initialized
+console.log(c); // ReferencError: Cannot access 'c' before initialization
+
+// 'c' is initialized here
+let c = 10;
